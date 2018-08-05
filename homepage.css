@@ -1,0 +1,207 @@
+/* homepage SS */
+*{
+  font-family: 'Gotham Book','Trebuchet MS',Helvetica,sans-serif;
+}
+body {
+  margin:0px!important;
+}
+.site-branding .branding-wordmark img {
+    display: none;
+}
+.site-branding .branding-wordmark .wordmark-horizontal {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerPic {
+  background: url("../img/italypurple.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: 100% 100%;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+/*  */
+header[role="banner"]{
+  padding-top:0px!important;
+  height: 219px;
+  padding-top: 35px;
+  background: #081d32; //navyblue
+  background: #0d1114; //blackish
+  z-index: 10000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.site-branding {
+    height: auto;
+    background: #081d32;
+    overflow: auto;
+    padding: 30px 0px 10px;
+}
+
+.site-branding div > h4 {
+  text-align: center;
+  margin: 15px;
+  color: #d4dcdf!important;
+  color: #e68686!important;
+  color: #d8a278!important;
+  color: #d3d5d6!important;
+  color: #cfcfcf!important;
+  font-size: 1.5em!important;
+  text-shadow: 0px 2px 2px black;
+}
+
+#nav-global {
+  background-color:#34597ec9!important;
+}
+
+nav ul{
+  display: flex;
+  background: black;
+  margin: 0px;
+  padding: 15px;
+  color: white;
+}
+nav li{
+  float:left;
+  list-style-type: none;
+}
+
+/* SECTION: HEADER ----------------- */
+
+.programSelect.container {
+  width: 70%;
+  background:#081d32a3;
+  background: #000000a3;
+  border-radius: 20px 20px 0px 0px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 2px 2px black;
+}
+
+.programSelect.container h2 {
+  color:#ddc1ff;
+  /* color: #ffa7c5; */
+  text-shadow: 0px 2px 2px black;
+  font-variant: all-small-caps;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom:5px;
+}
+
+.programSelect.container h5 {
+  font-size: 1.25em;
+  margin-top:0px;
+}
+.programSelect.container p{
+  font-size: 1.3em;
+}
+
+#goButton {
+  outline: none;
+  border:none;
+  padding: 10px 40px;
+  margin-left:10px;
+  font-size:1.25em;
+  background: black;
+  border-radius:10px;
+  color: white;
+  transition: transform .2s ease;
+}
+
+#goButton:hover {
+  background: #0f0044;
+  background: #001a4d;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.125);
+}
+
+/* SECTION: Why Study Abroad with COE */
+/* SECTION : Useful Information */
+#usefulInfo{
+  background: #000000d1;
+  background:url("../img/quesmark.jpg");
+  padding: 30px 0px 50px;
+}
+#usefulInfo h1 {
+  font-size:2em;
+  color:white!important;
+  margin-top:20px;
+}
+#usefulInfo h4{
+  margin: 10px 0px 0px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 1.5em;
+  text-align: center;
+}
+.usefulInfoContainer {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width: 80%;
+  margin:auto;
+}
+.usefulInfoContainer:hover {
+  flex-direction:column;
+  margin-bottom:40px;
+}
+.infoBox{
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #13294bd4;
+  box-shadow: 0px 0px 2px black;
+  border: 7px solid gray;
+  border: 7px solid #194470;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  transition:transform .2s ease;
+}
+
+.box:hover{
+  transform:scale(1.125);
+  cursor:pointer;
+  background: #181919d4;
+  border: 7px solid #d96b1e;
+
+
+}
+
+.box .fas{
+  color:white;
+  color:#d96b1d;
+}
+
+.content {
+  display:none;
+  background: #eee;
+  width: 60%;
+  border-radius: 20px;
+  /* height: 200px; */
+  margin: 5px auto;
+
+}
+.content .container {
+  width: 80%;
+}
